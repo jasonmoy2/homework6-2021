@@ -75,8 +75,9 @@ header img {
         align-items: center;
         position: sticky;
         top: 0;
-        width:100%;
-    }
+        left: 0;
+        }
+
     .nav_links{
         display: flex;
         flex-direction: row;
@@ -89,7 +90,7 @@ header img {
 
 @media screen and (prefers-reduced-motion: reduce){
     .logo{
-      animation: none;
+        animation: none;
     }
   }
 
